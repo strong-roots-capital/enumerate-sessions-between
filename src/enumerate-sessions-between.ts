@@ -12,7 +12,12 @@ import { inTradingviewFormat } from '@strong-roots-capital/is-tradingview-format
 
 
 /**
- * TODO: document
+ * Enumerate sessions between two dates (inclusive)
+ *
+ * @param timeframe - Session length in TradingView format
+ * @param start - Date to start enumeration
+ * @param end - Date to end enumeration
+ * @returns List of open-session dates between start and end
  */
 export default function enumerateSessionsBetween(
     timeframe: string,
