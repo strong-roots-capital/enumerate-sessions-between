@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/enumerate-sessions-between",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Enumerate sessions between two dates (inclusive)",
   "main": "dist/src/enumerate-sessions-between.js",
   "types": "dist/src/enumerate-sessions-between.d.ts",
